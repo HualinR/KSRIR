@@ -1,7 +1,7 @@
 function [result] = xRIRAnalyzer_HR(x, fs,winMeth)
 %x = BF_RIR_C1; fs = 16000;
 % x = data1_c;
-% [xc, fs] = audioread('/home/hualin/zDatasets/CUBE/BF_16k_8192_mman/RIR_Testing/BF_Cu_7.wav');
+% [xc, fs] = audioread('.../RIR_Testing/BF_Cu_7.wav');
 % [x,~] = xRIRCleaner(xc, fs);
 
 w = x(:,1);
@@ -10,7 +10,7 @@ w = x(:,1);
 tau_short = 0.3e-4;   % specular reflection detection integration time constant
 tau_long  = 2e-3;    % local reference level integration time constant, small->better, ne-3 ->48
 tau3    = 2e-3;     % specular reflection windowing time constant, small->BETTER
-% 2 ms for DROQM
+% 2 ms for DROQM and KSRIR
 % when fs = 48000, window size = 48000*2*10^-2, 2e-3 ->96, 1e-3 ->48, 0.5e-3 ->24
 % when fs = 16000, window size = 16000*2*10^-2, 2e-3 ->32, 1e-3 ->16, 3e-3->48, 5e-3 -> 80
 relThr  = -40;      % relative energy threshold
