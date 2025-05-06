@@ -32,11 +32,8 @@ This work proposes a novel **objective evaluation metric** for assessing the qua
 1. Clone or download this repository.  
 2. Open `ICASSP25_test.m` in MATLAB.  
 3. Modify the input path in the script to point to your WAV files.  
-4. Run the script:
+4. Run the script:`ICASSP25_test.m`
 
-```matlab
-ICASSP25_test
-```
 ---
 
 ## ⚙️ Configuration
@@ -65,14 +62,15 @@ If you use this code or reference the method in your research, please cite:
 
 ```bibtex
 @INPROCEEDINGS{10889495,
-  author={xxx},
+  author={Ren, Hualin and Ritz, Christian and Zhao, Jiahong and Zheng, Xiguang and Jang, Daeyoung},
   booktitle={ICASSP 2025 - 2025 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)}, 
   title={A Metric for Predicting the Quality of Ambisonic Spatial Audio Reproduced Using Spatially Interpolated or Extrapolated Room Impulse Responses}, 
   year={2025},
+  volume={},
+  number={},
   pages={1-5},
-  keywords={Measurement; Location awareness; Accuracy; Spatial audio; Virtual reality; Acoustics; Reflection; Reliability; Ambisonics; Speech processing; Room impulse response; Spatial audio quality; Objective quality metric; Virtual reality},
-  doi={10.1109/ICASSP49660.2025.10889495}
-}
+  keywords={Measurement;Location awareness;Accuracy;Spatial audio;Virtual reality;Acoustics;Reflection;Reliability;Ambisonics;Speech processing;Room impulse response;spatial audio quality;objective quality metric;virtual reality},
+  doi={10.1109/ICASSP49660.2025.10889495}}
 ```
 ---
 
