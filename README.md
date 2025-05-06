@@ -11,12 +11,12 @@ This work proposes a novel **objective evaluation metric** for assessing the qua
 
 ## 📦 Repository Overview
 
-├── ICASSP25_test.m # Main script to run the evaluation
-├── ICASSP25_KSRIR.m # Core metric function
-├── xRIRAnalyzer_HR.m # Segment analysis with configurable parameters
-├── xRIRCleaner.m # Remove the low-level and silence parts before the direct sound
-├── *.mat # Supporting data and helper functions
-└── Test_wav_files/ # Folder containing reference and synthesized audio
+- ├── `ICASSP25_test.m` – Main script to run the evaluation  
+- ├── `ICASSP25_KSRIR.m` – Core metric function  
+- ├── `xRIRAnalyzer_HR.m` – Segment analysis with configurable parameters  
+- ├── `xRIRCleaner.m` – Remove the low-level and silence parts before the direct sound  
+- ├── `*.mat` – Supporting data and helper functions  
+- └── `Test_wav_files/` – Folder containing reference and synthesized audio  
 
 ---
 
@@ -29,14 +29,14 @@ This work proposes a novel **objective evaluation metric** for assessing the qua
 
 ### Running the Code
 
-1. Clone or download this repository.
-2. Open `ICASSP25_test.m` in MATLAB.
-3. Modify the input path in the script to point to your WAV files.
+1. Clone or download this repository.  
+2. Open `ICASSP25_test.m` in MATLAB.  
+3. Modify the input path in the script to point to your WAV files.  
 4. Run the script:
 
 ```matlab
 ICASSP25_test
-
+```
 ---
 
 ## ⚙️ Configuration
