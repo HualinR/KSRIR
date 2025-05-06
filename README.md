@@ -32,17 +32,17 @@ This work proposes a novel **objective evaluation metric** for assessing the qua
 1. Clone or download this repository.  
 2. Open `ICASSP25_test.m` in MATLAB.  
 3. Modify the input path in the script to point to your WAV files.  
-4. Run the script:`ICASSP25_test.m`
+4. Run the script `ICASSP25_test.m`
 
 ---
 
 ## ⚙️ Configuration
 
 Change Input Files:
-Replace the contents of the Test_wav_files/ folder with your own reference and synthesized audio files.
+Replace the contents of the `Test_wav_files/` folder with your own reference and synthesized audio files.
 
 Adjust Segment Length:
-In xRIRAnalyzer_HR.m, you can change the length of the captured segments using the variable tau3.
+In `xRIRAnalyzer_HR.m`, you can change the length of the captured segments using the variable `tau3`.
 
 ---
 
