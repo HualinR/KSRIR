@@ -62,6 +62,8 @@ Supporting perceptual audio quality studies
 
 ## 📄 Citation
 If you use this code or reference the method in your research, please cite:
+
+```bibtex
 @INPROCEEDINGS{10889495,
   author={xxx},
   booktitle={ICASSP 2025 - 2025 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)}, 
@@ -71,16 +73,19 @@ If you use this code or reference the method in your research, please cite:
   keywords={Measurement; Location awareness; Accuracy; Spatial audio; Virtual reality; Acoustics; Reflection; Reliability; Ambisonics; Speech processing; Room impulse response; Spatial audio quality; Objective quality metric; Virtual reality},
   doi={10.1109/ICASSP49660.2025.10889495}
 }
-
+```
 ---
 
 ## 📬 Contact
 For questions, feedback, or collaboration, feel free to contact:
+
 📧 Hualin Ren — hualin@uow.edu.au
 
 ---
 
 ## 📝 License
-This repository is made available for academic and research use only. For commercial licensing, please contact the authors directly.
+This repository is made available for academic and research use only. 
+
+For commercial licensing, please contact the authors directly.
 
 
