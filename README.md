@@ -71,7 +71,7 @@ If you use this code or reference the method in your work, please cite the follo
   doi       = {10.1109/ICASSP49660.2025.10889495}
 }
 ```
-If you use components related to reflection capture or segment analysis (`xRIRAnalyzer_HR.m`, `xRIRCleaner.m`, `getWindowCenteredAt.m`, `getShortTermAverage.m`, or `*.mat`), please also cite:
+If you use components related to direct sound and reflection capture or segment analysis (`xRIRAnalyzer_HR.m`, `xRIRCleaner.m`, `getWindowCenteredAt.m`, `getShortTermAverage.m`, or `*.mat`), please also cite:
 ```bibtex
 @Article{app12042061,
   author    = {Zhao, Jiahong and Zheng, Xiguang and Ritz, Christian and Jang, Daeyoung},
